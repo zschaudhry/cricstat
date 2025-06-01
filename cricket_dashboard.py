@@ -114,7 +114,7 @@ player_stats = fetch_player_stats(num_records)
 
 if player_stats is not None:
     st.subheader("Player Batting Statistics")
-   
+   # Display the player stats table
     st.write(player_stats)
 
     # Plot player runs
@@ -149,6 +149,7 @@ if player_stats is not None:
             color_continuous_scale='RdBu',
             color_continuous_midpoint=np.average(player_stats['Matches'].astype(float)),
             hover_data=['High Score', 'Average'],
+            labels=player_stats['Player'],
             title='High Scores by Player and Matches',
             template='plotly_white'
         )
