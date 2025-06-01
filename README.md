@@ -41,9 +41,10 @@ This project is a Streamlit web application that displays and visualizes top T20
 - `cricket_dashboard.py` — Main Streamlit app and scraping logic.
 - `requirements.txt` — Python dependencies.
 
-## Screenshots
+## Screenshot
 
-![Dashboard Screenshot](screenshot.png) <!-- Add your screenshot if available -->
+ <img width="670" alt="cricDash" src="https://github.com/user-attachments/assets/2d10d5d5-6fd0-423c-895d-8c28ef631fe5" />
+
 
 ## Notes
 
